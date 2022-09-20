@@ -16,13 +16,13 @@ function play(){
         number_of_guesses+= 1;
         if(user_guess < answer){
             msg1.textContent =  "Your guess is to low!";
-            msg2.textContent =  "Number of guesses:" + number_of_guesses;
-            msg3.textContent =  "Guesses:" + guesses;
+            msg2.textContent =  "Number of guesses: " + number_of_guesses;
+            msg3.textContent =  "Guesses: " + guesses;
         }
         else if(user_guess > answer){
             msg1.textContent =  "Your guess is to high!";
-            msg2.textContent =  "Number of guesses:" + number_of_guesses;
-            msg3.textContent =  "Guesses:" + guesses;
+            msg2.textContent =  "Number of guesses: " + number_of_guesses;
+            msg3.textContent =  "Guesses: " + guesses;
         }
         else if(user_guess == answer){
             msg1.textContent  = "You Win!";
