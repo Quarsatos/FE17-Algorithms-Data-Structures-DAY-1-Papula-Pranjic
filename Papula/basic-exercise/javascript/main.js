@@ -28,6 +28,7 @@ function play(){
             msg1.textContent  = "You Win!";
             msg2.textContent  = "The number was: " + answer;
             msg3.textContent  = "You did it in : " + number_of_guesses  +" guesses!";
+            document.getElementById("button").disabled = true;
         }
 
     }
