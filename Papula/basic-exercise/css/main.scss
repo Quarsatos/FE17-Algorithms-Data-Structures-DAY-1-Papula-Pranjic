@@ -21,25 +21,30 @@ body{
     margin: 0 auto;
     padding: 2em;
     box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black;
-    >h1,input,button,p{
+    >h1,input,button,p,a{
         margin-bottom: 1em;
         font-weight: 700;      
     }
-    input,button,p{
+    input,button,p,a{
         font-size: 1.2em;
     }
     input{
-        width: 20%;
+        border: 2px solid black;
+        width: 19%;
         padding: .5em 0;
         text-align: center;
     }
-    button{
+    button,a{
         padding: .5em;
         background: rgb(92, 6, 6);
         color: white;
         &:hover{
             background: red;
         }
+    }
+    a{
+        text-decoration: none;
+        padding: .5em 1.1em;
     }
 
 }

@@ -20,23 +20,28 @@ body {
   padding: 2em;
   box-shadow: 12px 0 15px -4px black, -12px 0 8px -4px black;
 }
-.container > h1, .container input, .container button, .container p {
+.container > h1, .container input, .container button, .container p, .container a {
   margin-bottom: 1em;
   font-weight: 700;
 }
-.container input, .container button, .container p {
+.container input, .container button, .container p, .container a {
   font-size: 1.2em;
 }
 .container input {
-  width: 20%;
+  border: 2px solid black;
+  width: 19%;
   padding: 0.5em 0;
   text-align: center;
 }
-.container button {
+.container button, .container a {
   padding: 0.5em;
   background: rgb(92, 6, 6);
   color: white;
 }
-.container button:hover {
+.container button:hover, .container a:hover {
   background: red;
+}
+.container a {
+  text-decoration: none;
+  padding: 0.5em 1.1em;
 }/*# sourceMappingURL=main.css.map */
